@@ -1,0 +1,120 @@
+My basic practice using the LinkedIn Learning course:
+My input:- 'string 1' + 'string 2'
+Output:-   'string 1string 2'
+My input:-  type(float)
+Output:-   <class 'type'>
+My input:-  type(1.5)
+Output:-   <class 'float'>
+My input:-  '1' + '1'
+Output:-    '11'
+My input:-  '1'+ 1
+Error: Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    '1'+ 1
+TypeError: can only concatenate str (not "int") to str
+My input:-   1 ==1
+Output:-     True
+My input:-   1==2
+Output:-     False
+My input:-  '2' + '2'
+Output:-    '22'
+My input:-  '5' +'6'
+Output:-    '56'
+My input:-   my_list[1,2,3,4]
+Error: Traceback (most recent call last):
+  File "<pyshell#12>", line 1, in <module>
+    my_list[1,2,3,4]
+NameError: name 'my_list' is not defined
+My input:-    my_list=[1,2,3,4]; print(my_list)
+Output:-      [1, 2, 3, 4]
+My input:-   my_list = [(1,2), (), ()]; print(my_list)
+Output:-     [(1, 2), (), ()]
+# About sets
+My input:-   my_set=[1,2,3,4]; print(my_set)
+Output:-    [1, 2, 3, 4]
+My input:-   my_set=[1,2,3,4]; str(my_set)
+Output:-    '[1, 2, 3, 4]'
+My input:-   type(my_set)
+Output:-    <class 'list'>
+My input:-   len(my_set)
+Output:-    4
+My input:-   my_set=[1,1,2,2]; len(my_set)
+Output:-    4
+My input:-   my_set={1,1,2,2}; len(my_set)
+Output:-    2
+# This a comment: square bracket will show len as 4, curly bracket will show 2
+My input:-   [1,2] == [2,1]
+Output:-    False
+My input:-   {1,2} == {2,1}
+Output:-    True
+# This is a comment: Tuples
+My input:-   my_tuple=(1,2,3,4); len(my_tuple)
+Output:-    4
+My input:-   my_list.append(6); print(my_list)
+Output:-    [(1, 2), (), (), 6]
+#Tuples: They are memory efficient. Good for storing lots of little things like x,y coordinates.
+#Dictionaries
+My input:-   my_dictionary = { 'apple': 'A red fruit', 'bear': 'A scary animal'}; my_dictionary['apple']
+Output:-    'A red fruit'
+My input:-   my_dictionary = { 'apple': 'A red fruit', 'bear': 'A scary animal', 'apple':'Sometimes a green fruit'}; my_dictionary['apple']
+Output:-    'Sometimes a green fruit'
+#This is a comment: Sets and Dicitonaries: 1) Both are defined with curly brackets 2)Sets have unique values, dictionaires have unique keys, The order doesn't matter
+#Arithmetic operators:
+My input:-   1+1
+Output:-    2
+My input:-   5^2
+Output:-    7
+My input:-   5*2
+Output:-    10
+My input:-   5**2
+Output:-    25
+My input:-   5***2
+Error:-     invalid syntax
+My input:-   20/5
+Output:-    4.0
+My input:-   5/20
+Output:-    0.25
+My input:-   20%6
+Output:-    2
+#NOTE: The above 2 is the remainder after division of 20 and 6
+My input:-   'string 1'*4
+Output:-    'string 1string 1string 1string 1'
+My input:-   '1' + '4'
+Output:-    '14'
+#Comparison operators:
+My input:-   True == True
+Output:-    True
+My input:-   4<5
+Output:-    True
+My input:-   5<=5
+Output:-    True
+My input:-   5>2
+Output:-    True
+#Logical operators(and, or, not):
+My input:-   True and True
+Output:-    True
+My input:-   True and False
+Output:-    False
+My input:-   True or False
+Output:-    True
+My input:-   False or False
+Output:-    False
+My input:-   not True
+Output:-    False
+My input:-   not False
+Output:-    True
+#Membership operators
+My input:-   1 in [1,2,3,4,5]
+Output:-    True
+My input:-   10 in [1,2,3,4,5,6]
+Output:-    False
+My input:-   10 not in [1,2,3,4,5,6]
+Output:-    True
+My input:-   'cat' in ' my pet is cat'
+Output:-    True
+My input:-   'dog' in 'This is my pet dog'
+Output:-    True
+My input:-   'python' is not in 'Started my python program'
+SyntaxError: invalid syntax
+My input:-   'python' not in 'Started my python program'
+Output:-    False
