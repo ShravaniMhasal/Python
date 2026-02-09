@@ -1,0 +1,26 @@
+#Control flow:
+#If/Else statements:
+Code: a = True
+if a:
+    print('It is true')
+    print('Also print this')
+else:
+    print('It is false')
+    print('Always print this')
+
+Output:-  It is true
+          Also print this
+------------------------------------------------------
+Code: a = True
+b = True
+if a:
+    print('It is true')
+    print('Also print this')
+    if b:
+        print('Both are true')
+else:
+    print('It is false')
+    print('Always print this')
+Output: It is true
+Also print this
+Both are true
