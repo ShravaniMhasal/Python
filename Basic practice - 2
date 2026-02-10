@@ -24,3 +24,15 @@ else:
 Output: It is true
 Also print this
 Both are true
+---------------------------------------------------------
+Input: def multiplyByThree(val):
+    return 3 * val
+
+print(multiplyByThree(4))
+Output: 12
+--------------------------------------------------------
+Input: print(print('Hello, World1'))
+Output that I got: Hello, World1
+                    None
+
+
