@@ -1,0 +1,42 @@
+IF-ELSE PROGRAM
+Program 1: Student marks
+Input: student_a_marks = 80
+student_b_marks = 75
+#Student A
+if student_a_marks >= 90:
+    print("Student A has an A grade.")
+elif student_a_marks >= 80:
+    print("Student A has a B grade.")
+elif student_a_marks >= 70:
+    print("Student A has a C grade.")
+
+#Student B
+if student_b_marks >= 90:   
+    print("Student B has an A grade.")      
+elif student_b_marks >= 80:
+    print("Student B has a B grade.")
+elif student_b_marks >= 70:
+Output: Student A has a B grade.
+Student B has a C grade.
+-----------------------------------------------------------
+Program 2: Input: # Match 1
+score = 10
+
+if score >= 9:
+    print("Player A is good player")
+elif score >= 7 and score < 9:
+    print("Player B is good player")
+else:
+    print("Player C is good player")
+
+#Match 2
+score = 8
+if score >= 9:
+    print("Player A is good player")
+elif score >= 7 and score < 9:
+    print("Player B is good player")
+else:
+    print("Player C is good player")
+Output: Player A is good player
+Player B is good player
+    print("Student B has a C grade.")
