@@ -1,0 +1,10 @@
+Input: myList = [1,2,3,4,5]
+result = [2*item for item in myList]
+print(result)
+Output: [2, 4, 6, 8, 10]
+-----------------------------------------------------------
+Input: myList = list(range(100))
+filteredList = print([item for item in myList if item % 10 == 0])
+# % = modulus operator, gives you the remainder after dividing
+Ouput: [0, 10, 20, 30, 40, 50, 60, 70, 80, 90]
+-------------------------------------------------------------
