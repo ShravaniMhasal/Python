@@ -1,0 +1,10 @@
+Mini practice programs:
+------------------------------------------------------------
+Input: password = ""
+while password != "python123":
+    password = input("Enter password: ") #write only input and not print, or else the "Enter password" will keep on going in the output.
+print("Access granted")
+Ouput: Enter password: hello
+       Enter password: python123
+      Access granted.
+-------------------------------------------------------------
