@@ -40,3 +40,15 @@ else:
 Output: Player A is good player
 Player B is good player
     print("Student B has a C grade.")
+-----------------------------------------------------------------
+Program 3: 
+a = 2
+b = 5
+if a > b:
+ print("Five is greater than two!") 
+elif a < b:
+        print("Two is smaller than five!")
+elif a == b:                            else: print("Both are equal")
+		print("Both are equal")
+Output: Two is smaller than five!
+
